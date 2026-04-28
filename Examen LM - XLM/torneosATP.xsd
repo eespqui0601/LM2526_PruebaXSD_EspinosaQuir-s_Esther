@@ -9,7 +9,7 @@
 	<!ELEMENT puntosATP(ronda+)>
 	<!ELEMENT ronda(#PCDATA)>
 	
-	<!ELEMENT cuadro(cruce)>
+	<!ELEMENT cuadro(cruce+)>
 	<!ELEMENT cruce(jugador+)>
 	<!ELEMENT jugador(#PCDATA)>
 	
@@ -23,7 +23,7 @@
 	<!ELEMENT lado2(jugador)>
 	<!ELEMENT jugador(#PCDATA)>
 	
-	<!ELEMENT resultado(set)>
+	<!ELEMENT resultado(set+)>
 	<!ELEMENT set(juegos)>
 	<!ELEMENT juegos(puntosJuego?)>
 ]>
