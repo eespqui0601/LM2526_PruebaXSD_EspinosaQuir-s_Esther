@@ -18,12 +18,12 @@
 			<partido>
 				<tipo></tipo>
 				<jugadores>
-				<lado1>
-					<jugador nombre = "" rankingTorneo = ""></jugador>
-				</lado1>
-				<lado2>
-					<jugador nombre = "" rankingTorneo = ""></jugador>
-				</lado2>
+					<lado1>
+						<jugador nombre = "" rankingTorneo = ""></jugador>
+					</lado1>
+					<lado2>
+						<jugador nombre = "" rankingTorneo = ""></jugador>
+					</lado2>
 				</jugadores>
 				<resultado>
 					<set numero = "">

@@ -1,0 +1,33 @@
+<!DOCTYPE torneosATP [
+	<!ELEMENT torneosATP(torneo+)>
+	<!ELEMENT torneo(nombre, fechaIni, fechaFin, puntosATP, cuadro, partidos)>
+	
+	<!ELEMENT nombre(#PCDATA)>
+	<!ELEMENT fechaIni(#PCDATA)>
+	<!ELEMENT fechaFin(#PCDATA)>
+	
+	<!ELEMENT puntosATP(ronda)>
+	<!ELEMENT ronda(#PCDATA)>
+	
+	<!ELEMENT cuadro(cruce)>
+	<!ELEMENT cruce(jugador)>
+	<!ELEMENT jugador(#PCDATA)>
+	
+	<!ELEMENT partidos(partido)>
+	<!ELEMENT partido(tipo, jugadores, resultado)>
+	<!ELEMENT tipo(#PCDATA)>
+	
+	<!ELEMENT jugadores(lado1, lado2)>
+	<!ELEMENT lado1(jugador)>
+	<!ELEMENT jugador(#PCDATA)>
+	<!ELEMENT lado2(jugador)>
+	<!ELEMENT jugador(#PCDATA)>
+	
+	<!ELEMENT resultado(set)>
+	<!ELEMENT set(juegos)>
+	<!ELEMENT juegos(puntosJuego?)>
+]>
+
+<xs:complexType></xs:complexType>
+<xs:simpleType></xs:simpleType>
+<xs:enumeration></xs:enumeration>
