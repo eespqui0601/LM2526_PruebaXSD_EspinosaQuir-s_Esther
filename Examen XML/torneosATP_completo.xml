@@ -1,0 +1,99 @@
+<torneosATP>
+	<torneo>
+		<nombre></nombre>
+		<fechaIni></fechaIni>
+		<fechaFin></fechaFin>
+		<puntosATP>
+			<ronda puntos = ""></ronda>
+			<ronda puntos = ""></ronda>
+			<ronda puntos = ""></ronda>
+		</puntosATP>
+		<cuadro>
+			<cruce numero = "">
+				<jugador nombre = "" rankingTorneo = ""></jugador>
+				<jugador nombre = "" rankingTorneo = ""></jugador>
+			</cruce>
+		</cuadro>
+		<partidos>
+			<partido estado = "finalizado">
+				<tipo></tipo>
+				<jugadores>
+				<lado1>
+					<jugador nombre = "" rankingTorneo = ""></jugador>
+				</lado1>
+				<lado2>
+					<jugador nombre = "" rankingTorneo = ""></jugador>
+				</lado2>
+				</jugadores>
+				<resultado>
+					<set numero = "">
+						<juegos lado1 = "" lado2 = "">
+							<puntosJuego lado1 = "" lado2 = ""></puntosJuego>
+						</juegos>
+					</set>
+				</resultado>
+			</partido>
+		</partidos>
+	</torneo>
+	<torneo>
+		<nombre></nombre>
+		<fechaIni></fechaIni>
+		<fechaFin></fechaFin>
+		<puntosATP>
+			<ronda puntos = ""></ronda>
+			<ronda puntos = ""></ronda>
+			<ronda puntos = ""></ronda>
+			<ronda puntos = ""></ronda>
+			<ronda puntos = ""></ronda>
+			<ronda puntos = ""></ronda>
+		</puntosATP>
+		<cuadro>
+			<cruce numero = "">
+				<jugador nombre = "" rankingTorneo = ""></jugador>
+				<jugador nombre = "" rankingTorneo = ""></jugador>
+			</cruce>
+			<cruce numero = "">
+				<jugador nombre = "" rankingTorneo = ""></jugador>
+				<jugador nombre = "" rankingTorneo = ""></jugador>
+			</cruce>
+		</cuadro>
+		<partidos>
+			<partido estado = "finalizado">
+				<tipo>individual masculino</tipo>
+				<jugadores>
+				<lado1>
+					<jugador nombre = "" rankingTorneo = ""></jugador>
+				</lado1>
+				<lado2>
+					<jugador nombre = "" rankingTorneo = ""></jugador>
+				</lado2>
+				</jugadores>
+				<resultado>
+					<set numero = "">
+						<juegos lado1 = "" lado2 = "">
+							<puntosJuego lado1 = "" lado2 = ""></puntosJuego>
+						</juegos>
+					</set>
+				</resultado>
+			</partido>
+			<partido estado = "en juego">
+				<tipo>dobles mixtos</tipo>
+				<jugadores>
+				<lado1>
+					<jugador nombre = "" rankingTorneo = ""></jugador>
+				</lado1>
+				<lado2>
+					<jugador nombre = "" rankingTorneo = ""></jugador>
+				</lado2>
+				</jugadores>
+				<resultado>
+					<set numero = "">
+						<juegos lado1 = "" lado2 = "">
+							<puntosJuego lado1 = "" lado2 = ""></puntosJuego>
+						</juegos>
+					</set>
+				</resultado>
+			</partido>
+		</partidos>
+	</torneo>
+</torneosATP>
