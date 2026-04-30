@@ -37,7 +37,7 @@
 	<!ELEMENT set (juegos)>
 	<!ATTLIST set numero ID "1">
 	<!ELEMENT juegos (puntosJuego?)>
-	<!ATTLIST juegos lado1 (0 | 15| 30| 40| AD)>
+	<!ATTLIST juegos lado1 CDATA "0">
 	<!ATTLIST juegos lado2 CDATA "0">
 	<!ELEMENT puntosJuego (#PCDATA)>
 	<!ATTLIST puntosJuego lado1 CDATA "0">
