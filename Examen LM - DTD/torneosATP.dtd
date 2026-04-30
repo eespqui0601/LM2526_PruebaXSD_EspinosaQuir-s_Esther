@@ -19,7 +19,7 @@
 	
 	<!ELEMENT partidos (partido+)>
 	<!ELEMENT partido (tipo, jugadores, resultado)>
-	<!ATTLIST partido estado (en juego | finalizado)>
+	<!ATTLIST partido estado (en_juego | finalizado)>
 	
 	<!ELEMENT tipo (#PCDATA)>
 	
