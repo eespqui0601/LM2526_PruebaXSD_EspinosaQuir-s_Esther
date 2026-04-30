@@ -2,8 +2,8 @@
 	<!ELEMENT torneosATP (torneo+)>
 	<!ELEMENT torneo (nombre, fechaIni, fechaFin, puntosATP, cuadro, partidos)>
 	
-	<!ELEMENT nombre(#PCDATA)>
-	<!ELMENT fechaIni(#PCDATA)>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT fechaIni (#PCDATA)>
 	<!ELEMENT fechaFin (#PCDATA)>
 	
 	<!ELEMENT puntosATP (ronda+)>
@@ -12,7 +12,7 @@
 	
 	<!ELEMENT cuadro (cruce+)>
 	<!ELEMENT cruce (jugador+)>
-	<!ATTLIST cruce numero ID "1">
+	<!ATTLIST cruce numero ID #IMPLIED>
 	<!ELEMENT jugador (#PCDATA)>
 	<!ATTLIST jugador nombre CDATA "sin nombre">
 	<!ATTLIST jugador rankingTorneo CDATA "0">
