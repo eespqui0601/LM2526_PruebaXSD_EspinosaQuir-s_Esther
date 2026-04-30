@@ -1,49 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE torneosATP [
-	<!ELEMENT torneosATP (torneo+)>
-	<!ELEMENT torneo (nombre, fechaIni, fechaFin, puntosATP, cuadro, partidos)>
-	
-	<!ELEMENT nombre (#PCDATA)>
-	<!ELEMENT fechaIni (#PCDATA)>
-	<!ELEMENT fechaFin (#PCDATA)>
-	
-	<!ELEMENT puntosATP (ronda+)>
-	<!ELEMENT ronda (#PCDATA)>
-	<!ATTLIST ronda puntos CDATA "0">
-	
-	<!ELEMENT cuadro (cruce+)>
-	<!ELEMENT cruce (jugador+)>
-	<!ATTLIST cruce numero ID #IMPLIED>
-	<!ELEMENT jugador (#PCDATA)>
-	<!ATTLIST jugador nombre CDATA "sin nombre">
-	<!ATTLIST jugador rankingTorneo CDATA "0">
-	
-	<!ELEMENT partidos (partido+)>
-	<!ELEMENT partido (tipo, jugadores, resultado)>
-	<!ATTLIST partido estado (en_juego | finalizado)>
-	
-	<!ELEMENT tipo (#PCDATA)>
-	
-	<!ELEMENT jugadores (lado1, lado2)>
-	<!ELEMENT lado1 (jugador)>
-	<!ELEMENT jugador (#PCDATA)>
-	<!ATTLIST jugador nombre CDATA "sin nombre">
-	<!ATTLIST jugador rankingTorneo CDATA "0">
-	<!ELEMENT lado2 (jugador)>
-	<!ELEMENT jugador (#PCDATA)>
-	<!ATTLIST jugador nombre CDATA "sin nombre">
-	<!ATTLIST jugador rankingTorneo CDATA "0">
-	
-	<!ELEMENT resultado (set+)>
-	<!ELEMENT set (juegos)>
-	<!ATTLIST set numero ID "1">
-	<!ELEMENT juegos (puntosJuego?)>
-	<!ATTLIST juegos lado1 CDATA "0">
-	<!ATTLIST juegos lado2 CDATA "0">
-	<!ELEMENT puntosJuego (#PCDATA)>
-	<!ATTLIST puntosJuego lado1 CDATA "0">
-	<!ATTLIST puntosJuego lado2 CDATA "0">
-]>
 
 <torneosATP>
     <torneo>

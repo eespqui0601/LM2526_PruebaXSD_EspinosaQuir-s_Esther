@@ -19,23 +19,17 @@
 	
 	<!ELEMENT partidos (partido+)>
 	<!ELEMENT partido (tipo, jugadores, resultado)>
-	<!ATTLIST partido estado (en_juego | finalizado)>
+	<!ATTLIST partido estado (en_juego | finalizado) "en_juego">
 	
 	<!ELEMENT tipo (#PCDATA)>
 	
 	<!ELEMENT jugadores (lado1, lado2)>
 	<!ELEMENT lado1 (jugador)>
-	<!ELEMENT jugador (#PCDATA)>
-	<!ATTLIST jugador nombre CDATA "sin nombre">
-	<!ATTLIST jugador rankingTorneo CDATA "0">
 	<!ELEMENT lado2 (jugador)>
-	<!ELEMENT jugador (#PCDATA)>
-	<!ATTLIST jugador nombre CDATA "sin nombre">
-	<!ATTLIST jugador rankingTorneo CDATA "0">
 	
 	<!ELEMENT resultado (set+)>
 	<!ELEMENT set (juegos)>
-	<!ATTLIST set numero ID "1">
+	<!ATTLIST set numero ID #REQUIRED>
 	<!ELEMENT juegos (puntosJuego?)>
 	<!ATTLIST juegos lado1 CDATA "0">
 	<!ATTLIST juegos lado2 CDATA "0">
